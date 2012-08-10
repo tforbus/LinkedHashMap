@@ -19,16 +19,14 @@
     // Constant time insertion and removal.
     NSMutableDictionary* keyValueMap;
     
-    // Node[value]
+    // Node[key/value]
     // These preserve order of insertion for both key and value.
     // By nature, this has constant time insertion.
     // When a key/value pair is added to the keyValueMap, the items are added to 
     // their respective lists.
-    DoubleLinkedList* keyList;
-    DoubleLinkedList* valueList;
     KVDoubleLinkedList* keyValueList;
     
-    // key -> Node[value]
+    // key -> Node[key/value]
     // Maps a key to a Node in a valueList.
     // This enables Nodes in a DoubleLinkedList to be found in constant time, 
     // which gives constant time removal for a DoubleLinkedList.
