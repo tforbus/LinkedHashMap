@@ -23,7 +23,6 @@
 
 // Methods from the IList protocol
 -(Node*)insert:(id)value;           // Inserts a node | node.nodeValue = value
--(Node*)remove:(id)value;           // Deletes a node | node.nodeValue == value
 -(Node*)removeNode:(Node*)node;
 -(NSString*)description;
 -(NSArray*)asArray;

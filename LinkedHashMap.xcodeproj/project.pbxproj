@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BF31BA1015D593C40085AECF /* DoubleLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = BF31BA0F15D593C40085AECF /* DoubleLinkedList.m */; };
 		BF31BA1515D595EB0085AECF /* DListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BF31BA1415D595EB0085AECF /* DListNode.m */; };
+		BF31BA1E15D5C30B0085AECF /* KeyValueNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BF31BA1D15D5C30B0085AECF /* KeyValueNode.m */; };
+		BF31BA2115D5C4270085AECF /* KVDoubleLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = BF31BA2015D5C4270085AECF /* KVDoubleLinkedList.m */; };
 		BFEB7FDF15D553FF00E3F320 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEB7FDE15D553FF00E3F320 /* Foundation.framework */; };
 		BFEB7FE215D553FF00E3F320 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEB7FE115D553FF00E3F320 /* main.m */; };
 		BFEB7FE615D553FF00E3F320 /* LinkedHashMap.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BFEB7FE515D553FF00E3F320 /* LinkedHashMap.1 */; };
@@ -35,6 +37,10 @@
 		BF31BA1215D5951E0085AECF /* INode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = INode.h; sourceTree = "<group>"; };
 		BF31BA1315D595EB0085AECF /* DListNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DListNode.h; sourceTree = "<group>"; };
 		BF31BA1415D595EB0085AECF /* DListNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DListNode.m; sourceTree = "<group>"; };
+		BF31BA1C15D5C30B0085AECF /* KeyValueNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyValueNode.h; sourceTree = "<group>"; };
+		BF31BA1D15D5C30B0085AECF /* KeyValueNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyValueNode.m; sourceTree = "<group>"; };
+		BF31BA1F15D5C4270085AECF /* KVDoubleLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVDoubleLinkedList.h; sourceTree = "<group>"; };
+		BF31BA2015D5C4270085AECF /* KVDoubleLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVDoubleLinkedList.m; sourceTree = "<group>"; };
 		BFEB7FDA15D553FF00E3F320 /* LinkedHashMap */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinkedHashMap; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFEB7FDE15D553FF00E3F320 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BFEB7FE115D553FF00E3F320 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -114,6 +120,8 @@
 				BFEB7FFD15D5637C00E3F320 /* Node.m */,
 				BF31BA1315D595EB0085AECF /* DListNode.h */,
 				BF31BA1415D595EB0085AECF /* DListNode.m */,
+				BF31BA1C15D5C30B0085AECF /* KeyValueNode.h */,
+				BF31BA1D15D5C30B0085AECF /* KeyValueNode.m */,
 			);
 			name = Node;
 			sourceTree = "<group>";
@@ -124,6 +132,8 @@
 				BFEB7FEF15D5551400E3F320 /* IList.h */,
 				BF31BA0E15D593C40085AECF /* DoubleLinkedList.h */,
 				BF31BA0F15D593C40085AECF /* DoubleLinkedList.m */,
+				BF31BA1F15D5C4270085AECF /* KVDoubleLinkedList.h */,
+				BF31BA2015D5C4270085AECF /* KVDoubleLinkedList.m */,
 			);
 			name = List;
 			sourceTree = "<group>";
@@ -183,6 +193,8 @@
 				BFEB7FFE15D5637C00E3F320 /* Node.m in Sources */,
 				BF31BA1015D593C40085AECF /* DoubleLinkedList.m in Sources */,
 				BF31BA1515D595EB0085AECF /* DListNode.m in Sources */,
+				BF31BA1E15D5C30B0085AECF /* KeyValueNode.m in Sources */,
+				BF31BA2115D5C4270085AECF /* KVDoubleLinkedList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

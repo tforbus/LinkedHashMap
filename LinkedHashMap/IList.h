@@ -12,7 +12,7 @@
 @protocol IList <NSObject>
 
 -(Node*)insert:(id)value;
--(Node*)remove:(id)value;
+-(Node*)removeNode:(Node*)value;
 -(NSString*)description;
 -(NSArray*)asArray;
 

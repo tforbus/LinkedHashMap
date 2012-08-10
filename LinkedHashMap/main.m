@@ -16,7 +16,9 @@ int main(int argc, const char * argv[])
         [lhm insertValue:@"Value___2" withKey:[NSNumber numberWithInt:2]];
         [lhm insertValue:@"Value___4" withKey:[NSNumber numberWithInt:4]];
         [lhm insertValue:@"Value___8" withKey:[NSNumber numberWithInt:8]];
-        
+
+        [lhm removeValueWithKey:[NSNumber numberWithInt:4]];
+        NSLog(@"all values::: %@", [lhm allValues]);
         NSLog(@"all keys::: %@", [lhm allKeys]);
     }
     return 0;

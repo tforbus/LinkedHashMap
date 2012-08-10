@@ -1,25 +1,33 @@
 //
-//  DoubleLinkedList.m
+//  KVDoubleLinkedList.m
 //  LinkedHashMap
 //
 //  Created by Tristin Forbus on 8/10/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "DoubleLinkedList.h"
+#import "KVDoubleLinkedList.h"
 
-@implementation DoubleLinkedList
+@implementation KVDoubleLinkedList
 
 -(id)init
 {
-    head = nil;
-    tail = nil;
     return self;
 }
 
--(DListNode*)insert:(id)value
+
+-(KeyValueNode*)insert:(id)value withKey:(id)key
 {
-    DListNode* newNode = [[DListNode alloc] initWithValue:value];
+    KeyValueNode* noKey = [self insert:value];
+    noKey.nodeKey = key;
+    
+    return noKey;
+}
+
+-(KeyValueNode*)insert:(id)value
+{
+    KeyValueNode* newNode = [[KeyValueNode alloc] initWithValue:value];
+    newNode.nodeKey = nil;
     
     if(head == nil)
     {
@@ -38,7 +46,7 @@
 }
 
 
--(DListNode*)removeNode:(DListNode*)value
+-(KeyValueNode*)removeNode:(KeyValueNode*)value
 {
     NSLog(@"Value being removed is %@", value.description);
     
@@ -76,7 +84,7 @@
 -(NSString*)description
 {
     NSString* builder = @"";
-    DListNode* temp = head;
+    KeyValueNode* temp = head;
     
     while(temp != nil)
     {
@@ -91,7 +99,7 @@
 -(NSArray*)asArray
 {
     NSMutableArray* array = [[NSMutableArray alloc] init];
-    DListNode* temp = head;
+    KeyValueNode* temp = head;
     
     while(temp != nil)
     {
@@ -100,6 +108,27 @@
     }
     
     return [NSArray arrayWithArray:array];
+}
+
+
+-(NSArray*)asKeyArray
+{
+    NSMutableArray* array = [[NSMutableArray alloc] init];
+    KeyValueNode* temp = head;
+    
+    while(temp != nil)
+    {
+        [array addObject:temp.nodeKey];
+        temp = temp.next;
+    }
+    
+    return [NSArray arrayWithArray:array];
+}
+
+
+-(NSArray*)asValueArray
+{
+    return [self asArray];
 }
 
 @end

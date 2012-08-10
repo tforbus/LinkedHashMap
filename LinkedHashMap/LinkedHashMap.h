@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import "DoubleLinkedList.h"
+#import "KVDoubleLinkedList.h"
 #import "Node.h"
 
 @interface LinkedHashMap : NSObject
@@ -25,6 +26,7 @@
     // their respective lists.
     DoubleLinkedList* keyList;
     DoubleLinkedList* valueList;
+    KVDoubleLinkedList* keyValueList;
     
     // key -> Node[value]
     // Maps a key to a Node in a valueList.
