@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF31BA1015D593C40085AECF /* DoubleLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = BF31BA0F15D593C40085AECF /* DoubleLinkedList.m */; };
+		BF31BA1515D595EB0085AECF /* DListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BF31BA1415D595EB0085AECF /* DListNode.m */; };
+		BFEB7FDF15D553FF00E3F320 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEB7FDE15D553FF00E3F320 /* Foundation.framework */; };
+		BFEB7FE215D553FF00E3F320 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEB7FE115D553FF00E3F320 /* main.m */; };
+		BFEB7FE615D553FF00E3F320 /* LinkedHashMap.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BFEB7FE515D553FF00E3F320 /* LinkedHashMap.1 */; };
+		BFEB7FEE15D5541400E3F320 /* LinkedHashMap.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEB7FED15D5541400E3F320 /* LinkedHashMap.m */; };
+		BFEB7FFE15D5637C00E3F320 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEB7FFD15D5637C00E3F320 /* Node.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BFEB7FD815D553FF00E3F320 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				BFEB7FE615D553FF00E3F320 /* LinkedHashMap.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BF31BA0E15D593C40085AECF /* DoubleLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleLinkedList.h; sourceTree = "<group>"; };
+		BF31BA0F15D593C40085AECF /* DoubleLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleLinkedList.m; sourceTree = "<group>"; };
+		BF31BA1215D5951E0085AECF /* INode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = INode.h; sourceTree = "<group>"; };
+		BF31BA1315D595EB0085AECF /* DListNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DListNode.h; sourceTree = "<group>"; };
+		BF31BA1415D595EB0085AECF /* DListNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DListNode.m; sourceTree = "<group>"; };
+		BFEB7FDA15D553FF00E3F320 /* LinkedHashMap */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinkedHashMap; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFEB7FDE15D553FF00E3F320 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFEB7FE115D553FF00E3F320 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFEB7FE415D553FF00E3F320 /* LinkedHashMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LinkedHashMap-Prefix.pch"; sourceTree = "<group>"; };
+		BFEB7FE515D553FF00E3F320 /* LinkedHashMap.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LinkedHashMap.1; sourceTree = "<group>"; };
+		BFEB7FEC15D5541400E3F320 /* LinkedHashMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedHashMap.h; sourceTree = "<group>"; };
+		BFEB7FED15D5541400E3F320 /* LinkedHashMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedHashMap.m; sourceTree = "<group>"; };
+		BFEB7FEF15D5551400E3F320 /* IList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IList.h; sourceTree = "<group>"; };
+		BFEB7FFC15D5637C00E3F320 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		BFEB7FFD15D5637C00E3F320 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFEB7FD715D553FF00E3F320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEB7FDF15D553FF00E3F320 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFEB7FCF15D553FE00E3F320 = {
+			isa = PBXGroup;
+			children = (
+				BFEB7FE015D553FF00E3F320 /* LinkedHashMap */,
+				BFEB7FDD15D553FF00E3F320 /* Frameworks */,
+				BFEB7FDB15D553FF00E3F320 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFEB7FDB15D553FF00E3F320 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFEB7FDA15D553FF00E3F320 /* LinkedHashMap */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFEB7FDD15D553FF00E3F320 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFEB7FDE15D553FF00E3F320 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFEB7FE015D553FF00E3F320 /* LinkedHashMap */ = {
+			isa = PBXGroup;
+			children = (
+				BFEB800C15D5698000E3F320 /* List */,
+				BFEB7FFB15D561F000E3F320 /* Node */,
+				BFEB7FE115D553FF00E3F320 /* main.m */,
+				BFEB7FEC15D5541400E3F320 /* LinkedHashMap.h */,
+				BFEB7FED15D5541400E3F320 /* LinkedHashMap.m */,
+				BFEB7FE515D553FF00E3F320 /* LinkedHashMap.1 */,
+				BFEB7FE315D553FF00E3F320 /* Supporting Files */,
+			);
+			path = LinkedHashMap;
+			sourceTree = "<group>";
+		};
+		BFEB7FE315D553FF00E3F320 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFEB7FE415D553FF00E3F320 /* LinkedHashMap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFEB7FFB15D561F000E3F320 /* Node */ = {
+			isa = PBXGroup;
+			children = (
+				BF31BA1215D5951E0085AECF /* INode.h */,
+				BFEB7FFC15D5637C00E3F320 /* Node.h */,
+				BFEB7FFD15D5637C00E3F320 /* Node.m */,
+				BF31BA1315D595EB0085AECF /* DListNode.h */,
+				BF31BA1415D595EB0085AECF /* DListNode.m */,
+			);
+			name = Node;
+			sourceTree = "<group>";
+		};
+		BFEB800C15D5698000E3F320 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				BFEB7FEF15D5551400E3F320 /* IList.h */,
+				BF31BA0E15D593C40085AECF /* DoubleLinkedList.h */,
+				BF31BA0F15D593C40085AECF /* DoubleLinkedList.m */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFEB7FD915D553FF00E3F320 /* LinkedHashMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFEB7FE915D553FF00E3F320 /* Build configuration list for PBXNativeTarget "LinkedHashMap" */;
+			buildPhases = (
+				BFEB7FD615D553FF00E3F320 /* Sources */,
+				BFEB7FD715D553FF00E3F320 /* Frameworks */,
+				BFEB7FD815D553FF00E3F320 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinkedHashMap;
+			productName = LinkedHashMap;
+			productReference = BFEB7FDA15D553FF00E3F320 /* LinkedHashMap */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFEB7FD115D553FE00E3F320 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = BFEB7FD415D553FE00E3F320 /* Build configuration list for PBXProject "LinkedHashMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BFEB7FCF15D553FE00E3F320;
+			productRefGroup = BFEB7FDB15D553FF00E3F320 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFEB7FD915D553FF00E3F320 /* LinkedHashMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFEB7FD615D553FF00E3F320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEB7FE215D553FF00E3F320 /* main.m in Sources */,
+				BFEB7FEE15D5541400E3F320 /* LinkedHashMap.m in Sources */,
+				BFEB7FFE15D5637C00E3F320 /* Node.m in Sources */,
+				BF31BA1015D593C40085AECF /* DoubleLinkedList.m in Sources */,
+				BF31BA1515D595EB0085AECF /* DListNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BFEB7FE715D553FF00E3F320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BFEB7FE815D553FF00E3F320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BFEB7FEA15D553FF00E3F320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LinkedHashMap/LinkedHashMap-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFEB7FEB15D553FF00E3F320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LinkedHashMap/LinkedHashMap-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFEB7FD415D553FE00E3F320 /* Build configuration list for PBXProject "LinkedHashMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFEB7FE715D553FF00E3F320 /* Debug */,
+				BFEB7FE815D553FF00E3F320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFEB7FE915D553FF00E3F320 /* Build configuration list for PBXNativeTarget "LinkedHashMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFEB7FEA15D553FF00E3F320 /* Debug */,
+				BFEB7FEB15D553FF00E3F320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFEB7FD115D553FE00E3F320 /* Project object */;
+}
