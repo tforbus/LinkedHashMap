@@ -37,6 +37,7 @@
 -(id)init;
 -(void)insertValue:(id)value withKey:(id)key;
 -(void)removeValueWithKey:(id)key;
+-(void)setValue:(id)value forKey:(id)key;
 -(id)valueForKey:(id)key;
 -(NSArray*)allKeys;
 -(NSArray*)allValues;

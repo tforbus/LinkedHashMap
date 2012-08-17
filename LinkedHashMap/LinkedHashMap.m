@@ -37,6 +37,14 @@
 }
 
 
+-(void)setValue:(id)value forKey:(id)key
+{
+    [keyValueMap setValue:value forKey:key];
+    Node* node = [keyAddressMap objectForKey:key];
+    node.nodeValue = value;
+}
+
+
 -(id)valueForKey:(id)key
 {
     return [keyValueMap objectForKey:key];

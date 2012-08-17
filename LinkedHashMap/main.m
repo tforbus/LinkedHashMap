@@ -20,6 +20,9 @@ int main(int argc, const char * argv[])
         [lhm removeValueWithKey:[NSNumber numberWithInt:4]];
         NSLog(@"all values::: %@", [lhm allValues]);
         NSLog(@"all keys::: %@", [lhm allKeys]);
+        
+        [lhm setValue:@"MODIFIED" forKey:[NSNumber numberWithInt:2]];
+        NSLog(@"all values %@", [lhm allValues]);
     }
     return 0;
 }
